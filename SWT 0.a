@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+  <!-- Begining Of Document-->
+  <html>
+    <head>
+	
+	<!-- Linking to your JavaScript, Css, Mascot and Bootstrap -->
+      <link href="Resources\Bootstrap\css\bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="streekk.css" type="text/css" rel="stylesheet">
+      <link href="Resources\Bootstrap\css\bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="Resources\Bootstrap\css\bootstrap.min.css.map" rel="stylesheet" type="text/css">
+      <link href="Resources\Bootstrap\css\bootstrap-reboot.css" rel="stylesheet" type="text/css">
+      <link href="H:\Trais\Soft_Code Projects\Mascot Framework\CSS\mascot.innate.css" type="text/css" rel="stylesheet">
+	  
+      <script type="text/javascript" language="javascript" src="main.js">
+	  </script>
+	  
+<!--The site's meta-->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+	  <!--Document's title-->
+	  <title>Streakk</title>
+    
+	
+    <!--Navigation Bar-->
+	<nav class="topnav-body">
+      <nav class="navbar navbar-expand-lg">
+        <nav class="navbar-brand">
+          
+		  <!--Company Logo-->
+		  <a href="Streekk.html">
+            <img src="Resources\Images\Logo\a2.png" class="logo" alt="logo">
+          </a>
+		  <!--End of company logo-->
+		  
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-4" id="navBar">
+            <a class="nav-link" href="streekk.html">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </ul>
+        </div>
+      </nav>
+    </head>
+    
+	<!--Beginning of Document's Body-->
+	<body>
+	<!--JS code for the tab-->
+      <script>
+function selectTab(tabIndex) {
+  //Hide All Tabs
+  document.getElementById('tab1Content').style.display="none";
+  document.getElementById('tab2Content').style.display="none";
+  document.getElementById('tab3Content').style.display="none";
+  
+  //Show the Selected Tab
+  document.getElementById('tab' + tabIndex + 'Content').style.display="block";  
+}
+      </script>
+
+<!--Tabs-->
+      <div class="col-sm-12 col-md-12 col-lg-12" id ="tabButton">
+        <div id="tab1" onClick="JavaScript:selectTab(1);">Tab 1</div>
+        <div id="tab2" onClick="JavaScript:selectTab(2);">Tab 2</div>
+        <div id="tab3" onClick="JavaScript:selectTab(3);">Tab 3</div>
+      </div>
+      <br />
+
+<!--Tab 1 Content-->
+      <div id="tab1Content" class="tabcontent">
+        <div class="row">
+          <div class="col-sm-11 col-md-7 col-lg-7 col-xs-11">
+            <h2>Welcome To Streakk!</h2>
+            <p>You can place information about your company here.
+  Click on tab 2 and 3 to also add some information to them.
+  Click on help to find out more about the site and how you can customize them.
+  Visit <a href="http://streakk.spruz.com/stores">our store</a> or <a href="http://streakk.webnode.com">our website</a> to view more of our themes or request for a website built for you.</p>
+          </div>
+
+<!--Tab 2 Image-->
+          <div class="col-sm-4 col-md-4 col-lg-4" id="tabImage">
+            <img src="Resources\images\Contact\b4.jpg" id="tab1Image">
+          </div>
+        </div>
+      </div>
+
+<!--Tab 2 Content-->
+      <div id="tab2Content" class="tabcontent">
+        <div class="body">
+          <div class="row">
+            <div class="col-sm-11 col-md-7 col-lg-7 col-xs-11">
+              <h2>Hint</h2>
+              <p>You can add information about your company on the tabs, you can also write something about your branches, application and other very useful information to them.
+  At the right side of the tab, you can customize it and place an image their or delete that section if you want from the source code.<br><b><center>This Is An Organisational Website Template</center></b>
+              </p>
+            </div>
+			
+ 
+ <!--Tab 2 Image-->
+            <div class="col-sm-4 col-md-4 col-lg-4" id="tabImage" style="background-image: url(Resources/images/a9.jpg");">
+              <img src="">
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+
+<!--Tab 3 content-->
+    <div id="tab3Content" class="tabcontent">
+
+      <div class="row">
+        <div class="col-sm-11 col-md-7 col-lg-7 col-xs-11">
+          <h2> Who Are We?</h2>
+          <p>Streakk is a platform where programmers learn to code, sell their work and services to others.
+  Steakk offers a platform for upcomming programmers along with those who are already into it so that they can develop on themselves, get and sell their PDFs, games and other softwares.
+            <a href="http://www.streakk.webnode.com">Click Here</a> to explore other templates or themes by streakk. 
+		  </p>
+        </div>
+		 
+		 <!--Tab 3 image-->
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="tabImage">
+            <img src="Resources\images\logo\a2.png" id="tabImage" width="100%">
+          </div>
+        </div>
+      </div></div></div></div>
+	  <!--End Of Tab-->
+	  
+	  <!--Content 1-->
+        <div class="jumbotron">
+          <div class="row" id="body">
+            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3" id="sec1-aboutUs">
+              <h2>Who Are We?</h2>
+              <img src="Resources\images\about us\a4.jpg" width="150px" height="200px" align="left" class="wraptext">
+              <P style="margin-left:2px;" align="justify">
+Streakk is a platform where programmers learn to code, sell their work and services to others.
+Steakk offers a platform for upcomming programmers along with those who are already 
+into it so that they can develop on themselves, get and sell their PDFs, games and other softwares.
+                <a href="streak.webnode.com">Click Here</a> to explore other templates or themes by Streakk<br>
+                <a href="about.html" class="readmore-btn">
+                  <input type="button" class="btn btn-outline-secondary" id="readmorebtn" style="color: #ffffff; width:35%; background-color:grey;" value="Read More">
+                </a>
+			   
+			  </p>
+			</div>
+
+      <!--Content 2-->
+      <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3" id="sec2-services">
+        <h2>What We Do</h2>
+          <div style="border: 1px solid black;"><b>
+            <ul style="list-style-type: square;">
+<li>&nbsp Web Design and Development</li><hr>
+<li>&nbsp Website sales</li><hr>
+<li>&nbsp Online Programming Tutorials</li><hr>
+<li>&nbsp Database Development</li><hr>
+<li>&nbsp Software Development</li><hr>
+<li>&nbsp Search Engine Optimization</li><hr>
+<li>&nbsp Custorm Solution</li><hr>
+&nbsp <a href="streakk.webnode.com" id="sec2-services">More</a>
+</ul></b></p>
+          </div>
+			  </div>
+			
+            <!--Content 3-->
+			  <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3" id="sec3-joinUs">
+              <h2>Join Us</h2>
+              <img src="Resources\images\Contact\b6.jpeg" style="width: 50%; height: 50%; position:relative; margin-left:2px; margin-top:2px;" align="left">
+              <p>Aside the sales of website themes, we also do online tutorials for those who are new and would like to go into web development, 
+web design, networking and a host of other online tutorials.
+Joining us, you would not only learn programming, we would also help you in marketing your projects.
+Simply mail us at nultra007@gmail.com.<br>We look forward to hearing from you.
+              </p>
+            </div>
+			
+			<!--Content 4-->
+            <div class="col-sm-6 col-md-3 col-lg-3 col-xs-12 col-xl-3" id="sec4-ourStore" align="justify">
+              <h2>Visit Our Store</h2>
+              <p>Streakk also sells softwares such as xxamp, wammp server, netbean, programming ebooks and many other softwares at very affordable rates.
+Visit our store today to get the best softwares at very low prices.<br>
+You can also sign up to our store as a seller if you also develop amazing softwares.
+Many individuals have also signed up and are selling out amazing softwares which are soon becoming so popular even outside the store.
+<br> Sign up today either as a customer or a seller so that you too can have a thirst of it and see out how amazing the world is around Streakk
+              </p> 
+            </div>
+		  </div>
+		</div>
+		
+		<!--Offices-->
+        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12" id="office-body">
+          <div class="row">
+		  
+		  <!--Head Offices-->
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="headOffice">
+              <img src="resources\images\offices\a4.jpg" class="offices" align="center"><br>
+              <h2>Head Office</h2>
+              <p>No. 07 Nultra Street, Wuse, FCT Abuja, Nigeria<br>
+                <span class="glyphicon glyphicon-email"><img src="resources/images/glyphicon/1a.png" class="glyphicon glyphicon-email"></span></span>Mail: info@streakk.com<br>
+                <span class="glyphicon glyphicon-phone"><img src="Resources/images/glyphicon/1b.png" class="glyphicon glyphicon-phone"></span>Phone Number: +2349026333603
+              </p>
+            </div>
+		  
+		  <!--Branch Office 1-->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="branch1">
+              <img src="Resources\images\offices\a6.jpg" class="offices"><br>
+              <h2>Kaduna Office</h2>
+              <p>No. 101 Galadimawa crescent<br>
+                <span class="glyphicon glyphicon-email"><img src="resources/images/glyphicon/1a.png" class="glyphicon glyphicon-email"></span>Mail: info-kd@streakk.com<br>
+                <span class="glyphicon glyphicon-phone"><img src="Resources/images/glyphicon/1b.png" class="glyphicon glyphicon-phone"></span>Phone Number: +2348080934754
+			  </p>
+		    </div>
+		  
+		  <!--Branch Office 2-->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="branch2">
+              <img src="Resources\images\offices\a8.jpg" class="offices"><br>
+              <h2>Lagos Office</h2>
+              <p>No 36 Abalaka Crescent, Lekki, Lagos, Nigeria<br>
+                <span class="glyphicon glyphicon-mail"><img src="resources/images/glyphicon/1a.png" class="glyphicon glyphicon-email"></span>info-lekki@streakk.com<br>
+                <span class="glyphicon glyphicon-phone"><img src="Resources/images/glyphicon/1b.png" class="glyphicon glyphicon-phone"></span>
+                <span class="init-innate-email-sm-1"></span>Phone Number: +2349028160126
+			  </p>
+            </div>
+		  </div>
+	    </div>
+		<!--End Of Offices-->
+		
+		<!--Bootom Content-->
+		<div class="jumbotron" id="baseJumbotron">
+          <div class="row">
+		  
+		  <!--Content 1 - Recent Projects-->
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4" id="works">
+              <h2>Recent Projects</h2><hr>
+              <a href="streakk.spruz.com/stores/project1link">
+			    <img src="Resources\images\projects\project 1.png" alt="project 1" class="work">
+			  </a>
+              <a href="streakk.spruz.com/stores/project1link">
+			    <img src="Resources\images\projects\project 2.png" alt="project 2" class="work">
+			  </a>
+              <a href="streakk.spruz.com/stores/project1link">
+			    <img src="Resources\images\projects\project 3.png" alt="project 3"class="work">
+			  </a>
+              <a href="streakk.spruz.com/stores/project1link">
+			    <img src="Resources\images\projects\project 4.png" alt="project 4" class="work">
+			  </a>
+              <a href="streakk.spruz.com/stores/project1link">
+			    <img src="Resources\images\projects\project 5.png" alt="project 5" class="work">
+			  </a>
+            </div>
+			
+			<!--Content 2 - Contact Us-->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="contactUs">
+              <img src="Resources\images\contact\b1.png" class="contactUs-Image" width="100%" height="20%"><br><br><br><br>
+              <img src="resources/images/glyphicon/1a.png" width="20px" height="20px">&nbsp&nbspNultra101@gmail.com<br><br><br>
+              <a href="tel:+2348080934754" style="color:white"><img src="resources/images/glyphicon/1b.png" width="20px" height="20px">&nbsp&nbsp+2348080934754</a><br><br><br>
+              <img src="resources/images/glyphicon/1c.png" width="20px" height="20px">&nbsp&nbspWww.streakk.webnode.com<br><br><br>
+              <img src="resources/images/glyphicon/1d.png" width="20px" height="20px">&nbsp&nbspWww.streakk.spruz.com/store<br><br><br>
+              <img src="resources/images/glyphicon/1a.png" width="20px" height="20px">&nbsp&nbsp
+			  <a href="contact us.html">Leave Us A Message
+			  </a><br><br>
+            </div>
+			
+			<!--Testimonials-->
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" id="testimonials">
+              <center>
+			    <h3>Testimonials</h3>
+			  </center><hr color="grey">
+              <div class="container">
+                <blockquote cite="http://wordpress.com" class="brook" valign="top">
+				I would recommend this theme to anyone who wants to to take their company to the next level
+                  <cite>ThemeForest Customer</cite>
+                </blockquote><br><br>
+				  
+			        </div>
+             </div>
+		     </div>
+		  </div>
+	    </div>
+      </body>
+	  <!--End of document body-->
+	  
+	  <!--Footer-->
+      <footer class="footer">Powered By <a href="http://streakk.webnode.com">Streakk</a> | Copyright &copy; Streakk 2018</footer>
+	  <!--End Of Footer-->
+	  <style>
+    .logo{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top:0;
+	left:0;
+	height: 70px;
+}
+.nav-link{
+	color: black;
+	font-family:Aharoni;
+	font-size: 20px;
+	margin-right: 21px;
+	filter: blur(add=1 direction=225 strength=10)
+
+}
+#navBar a:hover{
+	color: orange;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+	float:right;
+	text-align:center;
+}
+.topnav-body{
+	background-color:white;
+	width:100%;
+	height: fit-content;
+}
+body{
+	display: grid;
+}
+a{
+	color:deepskyblue;
+}
+a:hover{
+	color:orange;
+	padding: 0.5px;
+}
+#mainBody{
+	background-image: url("a1.jpg");
+	position:relative;
+	width:100%;
+}
+
+#tab1, #tab2, #tab3 {
+  padding: 5px 10px 5px 10px;
+  background: orange;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  float:left;
+  width:33.3%;
+  height:fit-content;
+  position:relative;
+  border: 0.5px solid black;
+  text-align:center;
+  font-size: 20px;
+  position: relative;
+}
+#tabButton{
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+}
+.col-sm-11, .col-xs-11{
+	font-size:17px;
+}
+
+#tab1:hover, #tab2:hover, #tab3:hover, #tab1:active, #tab2:active, #tab3:active {
+  background: black;
+}
+
+#tab1Content, #tab2Content, #tab3Content {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  position:relative;
+  min-width:100%;
+  min-height: 15em;
+  max-height:15em;
+}
+.tabcontent h2{
+	color:orange;
+	text-align: center;
+}
+.tabcontent a{
+	color:blue;
+	cursor:pointer;
+}
+.tabcontent a:hover{
+	color:orange;
+}
+#tab1Content {
+	display: block;
+}
+#tab1Image{
+	background-color:white;
+	width:100%;
+	height:100%;
+}
+
+#tab2Content, #tab3Content {
+ display: none; 
+}
+#tabImage{
+	background-size:cover;
+}
+#div1{
+	position:relative;
+}
+
+#body{
+	margin: 3em!important;
+	position: relative;
+	top: 0;
+	width:100%;
+	height:100%;
+
+}
+#sec1-aboutUs p, #sec4-ourStore p{
+	border: 1px solid black;
+	width: 100%;
+	position:relative;
+	top:0;
+}
+#sec1-aboutUs p, #sec2-services p, #sec3-joinUs p, #sec4-ourStore p{
+	height: fit-content;
+}
+
+#sec1-aboutUs h2, #sec4-ourStore h2{
+	color:white;
+	background-color:black;
+	width:100%;
+	padding:0;
+}
+#sec2-services p{
+	position:relative;
+	width:100%;
+	height:100%;
+	top:0;
+}
+#sec2-services b{
+	font-weight: 800px;
+	font-style: bold;
+	line-height: 19px;
+	color: rgb(200,50,50);
+}
+#sec2-services h2{
+	background-color: black;
+	color: white;
+}
+#sec2-services p{
+	text-align: justify;
+	list-style-type: square;
+}
+#sec2-services a{
+	color: deepskyblue;
+	position: relative;
+	top:0;
+}
+#sec2-services a:hover{
+	color:orange;
+}
+#sec2-services hr{
+	width: 90%;
+}
+.readmore-btn{
+	color:white;
+	width:fit-content;
+	position:relative;
+	left:32.5%;
+	right:32.5%;
+	}
+.readmore-btn a {
+	color: #a9a9a9;
+	position:relative; 
+	opacity:0.1;
+}
+.readmore-btn a:hover{
+	color:white;
+	opacity:0.4;
+	text-decoration:none;
+	}
+.readmore-btn :link{
+	color: grey;
+}
+#readmorebtn{
+	width:fit-content;
+	position:relative;
+
+	top:0,5%;
+}
+body{
+	width:98%;
+}
+#sec3-joinUs{
+	position: relative;
+}
+#sec3-joinUs h2{
+	background-color:black;
+	color:white;
+}
+#sec3-joinUs p{
+	border: 1px solid black;
+	text-align:justify;
+	line-height:25px;
+}
+#baseJumbotron1{
+	background-color: rgb(220,160,80);
+}
+#baseJumbotron{
+	background-color: rgb(15,10,20);
+}
+#baseJumbotron1 h2, #baseJumbotron h2{
+	text-align:center;
+	margin: 12px;
+}
+#baseJumbotron1 h2{
+	color:red;
+}
+#baseJumbotron h2{
+	color:white;
+}
+#baseJumbotron hr{
+	color:white;
+}
+#office-body{
+	background:rgb(51,11,10);
+	margin-bottom:1em;
+	margin-top:0;
+}
+.glyphicon{
+	width: 30px;
+	height: 30px;
+}
+.glyphicon-email{
+	background: url("Resources/Images/Glyphicon/1a.png");
+}
+.glyphicon-phone{
+	background: url("Resources/Images/Glyphicon/1b.png");
+}
+.offices{
+	border-radius: 100%;
+	width: 40%;
+	margin-left:30%;
+	margin-right:30%;
+	height:150px;
+	width:150px;
+}
+#headOffice h2{
+	color:red;
+	text-align:center;
+}
+#headOffice p{
+	text-align:center;
+	color:white;
+}
+#branch1{
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+}
+#branch1 h2{
+	color: #336699;
+	text-align:center;
+}
+#branch1 p{
+	color:white;
+	text-align:center;
+}
+#branch2 p{
+	color:white;
+	text-align:center;
+}
+#branch2 h2{
+	color:#336699;
+	text-align:center;
+}
+.work{
+	width:100%;
+	height: 80px;
+	margin-bottom:5px;
+}
+#works{
+	border-right: 1px solid grey;
+	position:relative;
+}
+
+
+#contactUs{
+	position:relative;
+	color: white;
+	font-weight: 700;
+	border-right: 1px solid grey;
+}
+.contactUs-image{
+}
+#contactUs a{
+	color: red;
+	font-size: bold;
+}
+#contactUs a:hover{
+	text-decoration: none;
+	color:orange;
+}
+.brook{
+	font-size: 30px;
+}
+blockquote:before{
+	content:open-quote;
+	font-size: 100pt;
+	position:relative;
+	text-align:center;
+	margin:0;
+	font-family:Britannic Bold;
+	font-weight:900;
+}
+.brook p{
+	font-size:17pt;
+	position:relative;
+}
+cite{
+	font-size: 17px;
+	float: right;
+}
+#testimonials h3{
+	font-size: 50px;
+}
+#testimonials hr{
+	color:white;
+}
+#email{
+	background-color: #483d8b;
+	background-size:cover;
+	border-radius: 5px;
+	color:white;
+	text-align:center;
+}
+input[type=submit]{
+	color:white;
+	background-color:black;
+	font-size:20px;
+}
+input[type=email]{
+	font-size:20px;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	font-family: Colonna MT;
+	background-color:  #000000;
+	border: red;
+	color: white;
+	font-stretch: ultra-expanded;
+	width: 100%;
+	right: 0;
+	font-size: 20px;
+	text-align:center;
+}
+.footer a{
+	color:deepskyblue;
+}
+.footer a:hover{
+	color: orange;
+	padding: 5px;
+	text-decoration:none;
+}
+body{
+	display:fluid;
+	height:fit-content;
+	background-color:black;
+}
+
+
+#aboutPageJumbotron{
+	background-color:#0f0f0e;
+	color:white;
+	font-size:20px;
+	opacity: 0.72;
+	height:38em;
+}
+	#aboutPageJumbotron  a{
+		color:deepskyblue;	
+}
+	#aboutPageJumbotron a:hover{
+		color: orange;
+		padding: 0.5px;
+		text-decoration:none;
+	}
+#aboutPageJumbotron h2{
+	color:orange;
+	text-align: center;
+	font-size: 60px;
+}
+#aboutPageJumbotron p{
+	font-size: 20px;
+	text-align: justify;
+}
+.header1{
+	background-image: url("a5.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	height:100%;
+}
+.header2{
+	background-image: url("b1.jpg");
+	width:100%;
+	height: 300px;
+	background-attachment:relative;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	border-bottom:3px solid deepskyblue;
+	margin-bottom:11em;
+}
+.header3{
+	background-image: url("b3.jpg");
+	width: 100%;
+	height:400px;
+	background-size:cover;
+}
+#servicePageJumbotron{
+	background-color:#0f0f0e;
+	opacity:0.76;
+	height: 45em;
+	font-size:60px;
+}
+#services h2{
+	color:orange;
+	position:relative;
+	top:0;
+}
+#services p{
+	color:white;
+	font-size:20px;
+	line-height:55px;
+}
+#services b{
+	color:white;
+}
+#services a{
+	color:deepskyblue;
+	text-decoration:none;
+}
+#services a:hover{
+	color:orange;
+}
+
+
+#faqSection1 h2, #faqSection2 h2, #faqSection3 h2, #faqSection4 h2, #faqSection5 h2, #faqSection6 h2{
+	color: #336699;
+	background-color:black;
+	border-left: 6px solid #663399;
+	padding: 3px;
+	left:2px;
+	text-align:center;
+
+}
+#faqSection1 p, #faqSection2 p, #faqSection3 p, #faqSection4 p, #faqSection5 p, #faqSection6 p{
+	color:black;
+	font-size: 18px;
+	text-align:justify;
+}
+#faqSection1 a, #faqSection2 a, #faqSection3 a, #faqSection4 a , #faqSection5 a{
+	color:deepskyblue;
+	text-decoration:none;
+}
+#faqSection1 a:hover, #faqSection2 a:hover, #faqSection3 a:hover, #faqSection4 a:hover, #faqSection5 a:hover{
+	color:orange;
+}
+#faqArticle1{
+	border-bottom: 2px solid black;
+	
+}
+
+
+#portfolioCover{
+	background-color: #0f0f0e; 
+	color:white;
+	border-top: 1px solid orange;
+	margin-top: 5em;
+	border-radius:7px;
+}
+#project1 h3, #project2 h3, #project3 h3, #project4 h3, #project5 h3, #project5 h3, #project6 h3{
+	color: red;
+	font-size: 20px;
+}
+#project1 h4, #project2 h4, #project3 h4, #project4 h4, #project5 h4, #project5 h4, #project6 h4{
+	color: orange;
+	font-size: 21px;
+}
+#project1, #project2, #project4, #project5,{
+	border-right:2px solid black;
+}
+.project1Image, .project2Image, .project3Image, .project4Image, .project5Image, .project6Image{
+	width:100%;
+	height:15em;
+}
+#project4, #project5, #project6{
+	margin-top:5em;
+}
+
+#contactBody{
+	background: black;
+}
+#contactFormContent{
+	font-size: 20px;
+	background: url("b7.jpg");
+	border-radius: 3px;
+	color: red;
+	background-size:cover;
+	margin-left: 15%;
+	margin-right:25%;
+}
+.header4{
+	background-image: url("b6.jpg");
+	width:100%;
+	height:20em;
+	border-bottom: 2px solid black (opacity=0.5);
+	background-size:cover;
+}
+#contactBody hr{
+	color: white;
+	width:80%;
+}
+input[type=text], input[type=email]{
+	font-size: 20px;
+	background-color: black;
+	border-radius:4px;
+	border: 2px solid red;
+	margin:1em;
+	width:100%;
+	color:white;
+}
+.contactFormContentBox1{
+	height: 250px;
+	background: black;
+	border: 2px solid red;
+	width:700px;
+	color:white;
+}</style>
+
+
+    </html>
+	<!--End Of Document-->
